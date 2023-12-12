@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.bars-wrapper{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 13px;
+}
+
+.bar:hover .tooltip{
+  display: flex;
+}
+
+.bar:hover .bar-col{
+  opacity: 60%;
+}
