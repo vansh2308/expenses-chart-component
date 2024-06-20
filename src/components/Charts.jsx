@@ -6,7 +6,7 @@ const Charts = () => {
     <div className='w-full p-7 bg-white rounded-2xl flex justify-between flex-col' >
       <h3 className='font-bold text-[1.7rem]'>Spending - Last 7 days</h3>
 
-      <div className='pb-6 mt-4 w-full min-h-max bars-wrapper'>
+      <div className='pb-6 mt-0 w-full min-h-max bars-wrapper'>
         {
           data.map((item, key) => {
             return (

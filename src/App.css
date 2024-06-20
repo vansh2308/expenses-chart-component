@@ -20,3 +20,11 @@
 .bar:hover .bar-col{
   opacity: 60%;
 }
+
+
+@media screen and (max-width: 850px) {
+  .bars-wrapper{
+    column-gap: 7px;
+    pointer-events: none;
+  }
+}
